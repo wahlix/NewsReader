@@ -26,12 +26,10 @@ class XMLParser: NSObject, XMLParserDelegate {
     var delegate : XMLParserDelegate?
     var isFirst = true
     func startParsingWithContentsOfURL(rssURL: NSURL) {
-        
-        let parser = XMLParser(contentsOfURL: rssURL)
+        let parser = NSXMLParser(contentsOfURL: rssURL)
         parser.delegate = self
         parser.parse()
     }
-    
     
     func parserDidEndDocument(parser: XMLParser) {
         
