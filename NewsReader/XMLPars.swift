@@ -14,7 +14,7 @@ import UIKit
     
 }
 
-class XMLParser: NSObject, XMLParserDelegate {
+class XMLPars: NSObject, XMLParserDelegate {
     internal func parsingWasFinished() {
         
     }
