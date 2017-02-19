@@ -16,7 +16,7 @@
 		DC99F7071E4DE4AB0069107A /* TopicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC99F7061E4DE4AB0069107A /* TopicsTableViewController.swift */; };
 		DC99F7091E4DE4E70069107A /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC99F7081E4DE4E70069107A /* NewsViewController.swift */; };
 		DC99F70B1E4DE5550069107A /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC99F70A1E4DE5550069107A /* ContainerViewController.swift */; };
-		DC99F70D1E4DE5810069107A /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC99F70C1E4DE5810069107A /* XMLParser.swift */; };
+		DC99F70D1E4DE5810069107A /* XMLPars.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC99F70C1E4DE5810069107A /* XMLPars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		DC99F7061E4DE4AB0069107A /* TopicsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsTableViewController.swift; sourceTree = "<group>"; };
 		DC99F7081E4DE4E70069107A /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		DC99F70A1E4DE5550069107A /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
-		DC99F70C1E4DE5810069107A /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		DC99F70C1E4DE5810069107A /* XMLPars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLPars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 				DC99F7061E4DE4AB0069107A /* TopicsTableViewController.swift */,
 				DC99F7081E4DE4E70069107A /* NewsViewController.swift */,
 				DC99F70A1E4DE5550069107A /* ContainerViewController.swift */,
-				DC99F70C1E4DE5810069107A /* XMLParser.swift */,
+				DC99F70C1E4DE5810069107A /* XMLPars.swift */,
 			);
 			path = NewsReader;
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC99F7071E4DE4AB0069107A /* TopicsTableViewController.swift in Sources */,
-				DC99F70D1E4DE5810069107A /* XMLParser.swift in Sources */,
+				DC99F70D1E4DE5810069107A /* XMLPars.swift in Sources */,
 				DC99F70B1E4DE5550069107A /* ContainerViewController.swift in Sources */,
 				DC99F6D91E4DE4260069107A /* AppDelegate.swift in Sources */,
 				DC99F7091E4DE4E70069107A /* NewsViewController.swift in Sources */,
@@ -524,6 +524,7 @@
 				DC99F6FF1E4DE4260069107A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC99F7001E4DE4260069107A /* Build configuration list for PBXNativeTarget "NewsReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +533,7 @@
 				DC99F7021E4DE4260069107A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC99F7031E4DE4260069107A /* Build configuration list for PBXNativeTarget "NewsReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +542,7 @@
 				DC99F7051E4DE4260069107A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
